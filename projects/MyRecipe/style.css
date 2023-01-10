@@ -1,0 +1,175 @@
+html{
+    background-color: white;
+}
+
+body{
+    background-color: #ede6e6;
+    margin: 0 auto;
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #373535;
+}
+
+header{
+    height: 150px;
+    padding-top: 25px;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    display: inline;
+    padding: 10px;
+    font-size: 16px;
+
+}
+header li:first-child{
+    border-right: 1px solid #373535;
+}
+
+.left{
+    width: 320px;
+    float: left;
+}
+
+.right{
+    width: 320px;
+    float: right;
+}
+
+.left ul{
+    padding-top: 90px;
+    padding-left: 30px;
+}
+
+.right ul{
+    float:right;
+    padding-top: 90px;
+    padding-right: 30px;
+}
+
+#logo{
+    width: 320px;
+    float: left;
+    text-align: center;
+    color: #b46363;
+    font-size: 36px;
+}
+
+#logo p{
+    margin: 0;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table; 
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+
+.main{
+    background-image: url('images/dishes.jpg');
+    height: 438px;
+}
+
+.main p{
+    margin: 0;
+    padding-top: 30px;
+    color: #b46363;
+    text-align: center;
+    font-size: 30px;
+}
+
+#f{
+    padding-top: 30px;
+    text-align: center;
+}
+
+#email{
+    width: 220px;
+    height: 25px;
+    border-radius: 5px;
+    padding: 0;
+    margin-right: 10px;
+}
+
+#click{
+    height: 25px;
+    border-radius: 5px;
+}
+
+.box {
+    position: relative;
+    float: left;
+    margin: 15px 0;
+    /* border: 2px solid black; */
+}
+
+.box img{
+    position: relative;
+    z-index: 1;
+    margin-left: 15px;
+
+}
+
+.box p{
+    position: absolute;
+    width:100%;
+    top: 0;
+    /* left: 10px; */
+    z-index: 2;
+    
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.theleft p{
+    color:cornsilk;
+}
+
+.themiddle p{
+    color:cornsilk;
+}
+
+.theright p{
+    color:cornsilk;
+}
+
+footer li{
+    border-right: 1px solid #373535;
+
+}
+
+footer li:last-child{
+    border-right: none;
+
+}
+nav{
+    padding-top: 6px;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer img{
+    display: block;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: #e5e0e0;
+    padding-top:12px;
+    height: 140px;
+}
